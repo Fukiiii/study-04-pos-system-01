@@ -40,7 +40,6 @@ def main():
     item_master.append(Item("001","りんご",100))
     item_master.append(Item("002","なし",120))
     item_master.append(Item("003","みかん",150))
-    print(item_master)
     
     # オーダー登録
     order=Order(item_master)
